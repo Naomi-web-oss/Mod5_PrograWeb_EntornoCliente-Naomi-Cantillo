@@ -30,7 +30,7 @@ Cada carpeta de sesión tiene su propio `README.md` con los archivos del día, c
 | ------ | ---------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------- |
 | S01    | 10/11/2026 | Bienvenida, encuadre y diagnóstico                                           | [UA1/S01](UA1/S01/1.MaterialParticipanteS1/S01_Cuadro_comparativo_Estudiantes.docx) | Completado |
 | S02    | 11/11/2026 | Entorno de trabajo, MVC y JavaScript                                         | [UA1/S02](UA1/S02/pruebas/js/app.js)                                                | Completado |
-| S03    | 12/11/2026 | Entorno en el laboratorio y mi primer script                                 | [UA1/S03](UA1/S03)                                                                  | ⬜         |
+| S03    | 12/11/2026 | Entorno en el laboratorio y mi primer script                                 | [UA1/S03](UA1/S03/horario/js/horarios.js)                                           | ⬜         |
 | S04    | 13/11/2026 | Variables, constantes, tipos y operadores                                    | [UA1/S04](UA1/S04)                                                                  | ⬜         |
 | S05    | 16/11/2026 | Números, textos, fechas y conversión de datos                                | [UA1/S05](UA1/S05)                                                                  | ⬜         |
 | S06    | 18/11/2026 | Decisiones y depuración en el navegador                                      | [UA1/S06](UA1/S06)                                                                  | ⬜         |
