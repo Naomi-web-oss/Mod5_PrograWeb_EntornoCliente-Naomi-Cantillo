@@ -1,6 +1,6 @@
 # CSTI12004 · Programación web en el entorno cliente
 
-**Persona estudiante:** Naomi Cantillo Mata 
+**Persona estudiante:** Naomi Cantillo Mata
 **Programa:** CSTI14001 Desarrollo de páginas web · Instituto Nacional de Aprendizaje (INA)  
 **Persona facilitadora:** Giovanni Antonio Coto Calderón  
 **Fechas del módulo:** del 10/11/2026 al 16/02/2027
