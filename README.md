@@ -2,7 +2,7 @@
 
 <h1>📘 Portafolio de Evidencias</h1>
 
-<h3>Naomi Cantillo Mata</h3>
+<h3>Naomi Yariela Cantillo Mata</h3>
 
 <strong>CSTI12004 · Programación web en el entorno cliente</strong> · Instituto Nacional de Aprendizaje
 Programa CSTI14001 Desarrollo de páginas web · Facilitador: Giovanni Antonio Coto Calderón · 2026-2027
@@ -73,15 +73,15 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S01</td>
             <td>Bienvenida, encuadre y diagnóstico</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S01/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S01/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">(Características y diferencias de los lenguajes C, JavaScript, TypeScript)</td>
+            <td align="center"><a href="UA1/S01/S01_Cuadro_comparativo_Naomi-Cantillo.docx" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S01/capturas/cuadro-comparativo-S01..png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S02</td>
             <td>Entorno de trabajo, MVC y JavaScript</td>
             <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S02/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S02/Prueba_Entorno/app.js" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S02/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
@@ -94,7 +94,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S04</td>
             <td>Variables, constantes, tipos y operadores</td>
-            <td align="left">(Constantes y variables - tipos de datos - y comparaciones)</td>
+            <td align="left">(Constantes y variables - tipos de datos y comparaciones)</td>
             <td align="center"><a href="UA1/S04/js/solicitud/js/solicitud.js" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S04/capturas/Ejercicios-realizados-en-clase/solicitud.js-S04-ejercicio05-navegador.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
@@ -407,7 +407,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
 <details>
 <summary>▼<b>Clase 01 · 10/11/2026 · Bienvenida, encuadre y diagnóstico</b></summary>
 
-Archivo: [S01_Cuadro_comparativo_Nombre_Apellido.docx](UA1/S01/S01_Cuadro_comparativo_Estudiantes.docx) (tarea para la clase 2).
+Archivo: (UA1/S01/S01_Cuadro_comparativo_Naomi-Cantillo.docx) (tarea para la clase 2).
 
 **Conclusión**
 
@@ -420,58 +420,58 @@ La diferencia más importante que encontré entre C y JavaScript:
 
 Archivo: [pruebas/js/pruebas.js](UA1/S02/pruebas/js/app.js)
 
-| Línea | Qué mostró la consola | Tipo | Corrección |
-| ----- | --------------------- | ---- | ---------- |
-| 2     |                       |      |            |
-| 3     |                       |      |            |
-| 4     |                       |      |            |
-| 5     |                       |      |            |
-| 6     |                       |      |            |
-| 7     |                       |      |            |
+| Línea | Qué mostró la consola                               | Tipo      | Corrección                                    |
+| ----- | --------------------------------------------------- | --------- | --------------------------------------------- |
+| 2     | Promedio: 80                                        | Correcta  | console.log("Promedio:", (70 + 80 + 90) / 3); |
+| 3     | Uncaught SyntaxError: unexpected token: ')'         | Sintaxis  | console.log("Hola, mundo");                   |
+| 4     | Total: 1500900                                      | Semántica | console.log("Total: ", 1500 + 900);           |
+| 5     | Bienvenida al "INA"                                 | Correcta  | console.log('Bienvenida al "INA"');           |
+| 6     | Perímetro de 4 x 3: 10                              | Semántica | console.log("Perímetro de 4 x 3:", 4 \* 3);   |
+| 7     | Uncaught SyntaxError: missing ) after argument list | Sintaxis  | console.log('Bienvenida al "INA"');           |
 
 **Autoevaluación**
 
 | Indicador                                                                                      | Sí  | Aún no |
 | ---------------------------------------------------------------------------------------------- | --- | ------ |
-| Copié Luz Clara en `luz-clara/` y Casa Tomillo en `casa-tomillo/`, y los abro con Live Server. |     |        |
-| Mi repositorio está en GitHub con el README.                                                   |     |        |
-| Distingo un error de sintaxis de uno de semántica.                                             |     |        |
-| Uso `//` para aislar un error y seguir probando.                                               |     |        |
+| Copié Luz Clara en `luz-clara/` y Casa Tomillo en `casa-tomillo/`, y los abro con Live Server. | X   |        |
+| Mi repositorio está en GitHub con el README.                                                   | X   |        |
+| Distingo un error de sintaxis de uno de semántica.                                             | X   |        |
+| Uso `//` para aislar un error y seguir probando.                                               | X   |        |
 
 </details>
 
 <details>
 <summary>▼<b>Clase 03 · 12/11/2026 · Cacería de errores</b></summary>
 
-Archivos: [horario/js/horarios.js](UA1/S03/horario/js/horarios.js) · [luz-clara/js/ficha.js](luz-clara/js/ficha.js) · [casa-tomillo/js/talleres.js](casa-tomillo/js/talleres.js)
+Archivos: (UA1/S03/horario/js/horarios.js) · (luz-clara/js/ficha.js) · (casa-tomillo/js/talleres.js)
 
 **Cacería de errores**
 
-| #   | Mensaje de la consola | Archivo:línea | Corrección |
-| --- | --------------------- | ------------- | ---------- |
-| 1   |                       |               |            |
-| 2   |                       |               |            |
-| 3   |                       |               |            |
-| 4   |                       |               |            |
+| #   | Mensaje de la consola                                                    | Archivo:línea                          | Corrección                                           |
+| --- | ------------------------------------------------------------------------ | -------------------------------------- | ---------------------------------------------------- |
+| 1   | HORARIO DE ATENCIÓN                                                      | horario2.js:2:9                        | console.log("HORARIO DE ATENCIÓN");                  |
+| 2   | Uncaught SyntaxError: "" string literal contains an unescaped line break | horario2.js:3:52                       | console.log("Mar a sáb:\t10:00 a. m. a 7:00 p. m."); |
+| 3   | Uncaught ReferenceError: Console is not defined                          | :5501/UA1/S03/horario/js/horario2.js:4 | console.log("Domingo:\tcerrado");                    |
+| 4   | Lunes: cerrado                                                           | horario2.js:5:9                        | console.log("Lunes:\tcerrado");                      |
 
 **Reto MVC**
 
-| Elemento | Componente | Justificación |
-| -------- | ---------- | ------------- |
-| 1        |            |               |
-| 2        |            |               |
-| 3        |            |               |
-| 4        |            |               |
-| 5        |            |               |
-| 6        |            |               |
+| Elemento | Componente  | Justificación                                                                                                             |
+| -------- | ----------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 1        | Modelo      | Datos guardados en el programa.                                                                                           |
+| 2        | Vista       | La página y sus estilos es algo visible para los usuarios en el navegador.                                                |
+| 3        | Controlador | Funciona como intermediario, por una acción del usuario («Enviar») se pide realizar un proceso en el modelo.              |
+| 4        | Modelo      | Dicha información se calcula por medio del código en el modelo.                                                           |
+| 5        | Vista       | Muestra información directa al usuario.                                                                                   |
+| 6        | Controlador | Intermediario entre el código del modelo que revisa que se realice una acción y la vista que contribuye en dicho proceso. |
 
 **Autoevaluación**
 
 | Indicador                                                       | Sí  | Aún no |
 | --------------------------------------------------------------- | --- | ------ |
-| Enlazo un archivo .js al final del body o en el head con defer. |     |        |
-| Uso comentarios de línea y de bloque.                           |     |        |
-| Uso \n, \t, \", \\ y \u en textos.                              |     |        |
+| Enlazo un archivo .js al final del body o en el head con defer. | X   |        |
+| Uso comentarios de línea y de bloque.                           | X   |        |
+| Uso \n, \t, \", \\ y \u en textos.                              | X   |        |
 | Leo el tipo de error, el mensaje y la línea en la consola.      |     |        |
 
 </details>
@@ -497,16 +497,16 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 | #   | Expresión        | Mi predicción | Lo que mostró la consola |
 | --- | ---------------- | ------------- | ------------------------ |
-| 1   | `typeof "95000"` | string        | string                   |
-| 2   | `typeof 95000`   | number        | number                   |
-| 3   | `typeof 9.5`     | number        | number                   |
-| 4   | `typeof "true"`  | boolean       | string                   |
-| 5   | `"5" + 2`        | 5 + 2         | "52"                     |
-| 6   | `"5" - 2`        | 5 - 2         | 3                        |
-| 7   | `5 === "5"`      | false         | false                    |
-| 8   | `10 % 3`         | 1             | 1                        |
-| 9   | `true && false`  | true false    | false                    |
-| 10  | `!(3 > 2)`       | false         | false                    |
+| 1   | `typeof "95000"` | `string`      | `string`                 |
+| 2   | `typeof 95000`   | `number`      | `number`                 |
+| 3   | `typeof 9.5`     | `number`      | `number`                 |
+| 4   | `typeof "true"`  | `boolean`     | `string`                 |
+| 5   | `"5" + 2`        | `5 + 2`       | `"52"`                   |
+| 6   | `"5" - 2`        | `5 - 2`       | `3`                      |
+| 7   | `5 === "5"`      | `false`       | `false`                  |
+| 8   | `10 % 3`         | `1`           | `1`                      |
+| 9   | `true && false`  | `true false`  | `false`                  |
+| 10  | `!(3 > 2)`       | `false`       | `false`                  |
 
 **Autoevaluación**
 
@@ -579,7 +579,7 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 <div align="center">
 
-<strong>Naomi Cantillo Mata</strong>
+<strong>Naomi Yariela Cantillo Mata</strong>
 
 <p>Portafolio elaborado durante el módulo CSTI12004 · Instituto Nacional de Aprendizaje · 2026-2027</p>
 
