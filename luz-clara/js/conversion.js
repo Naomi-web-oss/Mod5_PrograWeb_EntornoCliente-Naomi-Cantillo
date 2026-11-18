@@ -1,7 +1,7 @@
 //conversion.js - Convertir entre texto y numero.
 console.log(Number("45000.5")); //Texto a numero.
 console.log(parseInt("45000.5")); //Solo la parte entera.
-console.log(parseFloat("450000.5")); //Con decimales.
+console.log(parseFloat("45000.5")); //Con decimales.
 console.log(parseInt("3 fotos")); //Lee hasta donde puede.
 console.log(Number("3 fotos")); //NaN: no es un nùmero.
 const precio = 75000 * 1.13; //84749.99999999999
