@@ -582,20 +582,6 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 </details>
 
-<!--
-CÓMO USAR ESTE BLOQUE (Clase 07)
-1. Abra el README.md de la carpeta principal del repositorio
-   (Mod5_PrograWeb_EntornoCliente-Nombre/README.md). Es el único README.
-2. Busque la sección «📝 Respuestas de las prácticas».
-3. Busque el aviso «📌 AQUÍ SE PEGAN LOS BLOQUES NUEVOS».
-   Si no lo tiene, ubíquese debajo del último </details> de esa sección,
-   antes de la línea --- que la cierra.
-4. Pegue ARRIBA de ese aviso todo lo que sigue a este comentario:
-   desde <details> hasta </details>. El aviso queda debajo, listo para la próxima clase.
-5. Deje una línea en blanco antes y después del bloque.
-6. Revise con Ctrl+Shift+V que las tablas se vean bien y guarde.
--->
-
 <details>
 <summary>▼<b>Clase 07 · 23/11/2026 · Repeticiones, vectores y matrices</b></summary>
 
