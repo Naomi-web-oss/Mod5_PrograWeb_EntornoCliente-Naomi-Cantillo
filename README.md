@@ -555,31 +555,32 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 **Ejercicio 1 · Pruebas de cupos.js** 
   
 | Prueba | Mensajes que mostró la consola | 
-|---|---| 
-| cupos = 6 |  | 
-| cupos = 2 |  | 
-| cupos = 0 |  |
-| nivel = "Intermedio" |  | 
-  
-**Ejercicio 3 · Cacería con DevTools** 
-  
-| Pregunta | Respuesta | 
-|---|---| 
-| ¿En qué línea puso el punto de interrupción? |  | 
-| ¿Qué valor tenía descuento al detenerse? |  | 
-| ¿Cuál era la causa del error? |  | 
-| ¿Cómo lo corrigió? |  | 
-  
-**Autoevaluación** 
-  
-| Indicador | Sí | Aún no | 
-|---|---|---| 
-| Escribo if / else if / else con las condiciones en el orden correcto. | | | 
-| Uso el ternario para elegir entre dos valores. | | | 
-| Escribo switch con break y default. | | | 
-| Pongo un punto de interrupción y avanzo con F10. | | | 
-| Uso try / catch para que el programa no se detenga. | | | 
-  
+|--------|--------------------------------| 
+| cupos = 6 | Hay cupos disponibles | 
+| cupos = 2 | ¡Últimos cupos! | 
+| cupos = 0 | Taller lleno |
+| nivel = "Intermedio" | Requiere el nivel inicial | 
+
+
+**Ejercicio 3 · Cacería con DevTools**
+
+| Pregunta                                     | Respuesta                                                   |
+| -------------------------------------------- | ----------------------------------------------------------- |
+| ¿En qué línea puso el punto de interrupción? | 4                                                           |
+| ¿Qué valor tenía descuento al detenerse?     | 0                                                           |
+| ¿Cuál era la causa del error?                | Cumplía con la primera condición por lo que salía del bucle |
+| ¿Cómo lo corrigió?                           | monto <= 50000                                              |
+
+**Autoevaluación**
+
+| Indicador                                                             | Sí  | Aún no |
+| --------------------------------------------------------------------- | --- | ------ |
+| Escribo if / else if / else con las condiciones en el orden correcto. | X   |        |
+| Uso el ternario para elegir entre dos valores.                        | X   |        |
+| Escribo switch con break y default.                                   | X   |        |
+| Pongo un punto de interrupción y avanzo con F10.                      | X   |        |
+| Uso try / catch para que el programa no se detenga.                   | X   |        |
+
 </details>
 
 > 📌 **AQUÍ SE PEGAN LOS BLOQUES NUEVOS.** Pegue el bloque de cada clase (desde `<details>` hasta `</details>`) justo **arriba** de este aviso. El aviso queda siempre al final de la sección.
