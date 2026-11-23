@@ -5,6 +5,7 @@ const matriculaPersona = 10000; //Matricula por persona.
 const personasInscribir = 2; //Personas a inscribir.
 const haycupos = true; //Constante booleana, si ambas codiciones se cumplen es = true.
 let cupos = 8; //Cupos del grupo.
+let hay;
 
 console.log("Taller:", nombreTaller); //Nombre del taller.
 console.log("Precio por persona", precioTaller + matriculaPersona); //Precio por persona = el precio del taller + el costo de la matricula.
@@ -16,7 +17,7 @@ console.log(
 ); //Costo total para dos personas, total de costos (costo taller + costo matricula) * la cantidad de personas.
 console.log("¿Hay cupos?", haycupos > 0); //Si la cantidad de cupos es mayor a 0 = true.
 personasInscribir -= cupos;
-console.log("cupos libres:", (personasInscribir -= cupos)); //Restar los cupos de las personas inscritas a los cupos que hay, puesto que estos ya estan ocupados, por lo que ya no estan disponibles.
+console.log("cupos libres:", (hay -= cupos); //Restar los cupos de las personas inscritas a los cupos que hay, puesto que estos ya estan ocupados, por lo que ya no estan disponibles.
 console.log(
   "¿Menos de \u20A1250 000  y con cupos?",
   21000 < 25000 && haycupos > 0,
