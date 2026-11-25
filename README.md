@@ -559,8 +559,7 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | cupos = 6 | Hay cupos disponibles | 
 | cupos = 2 | ¡Últimos cupos! | 
 | cupos = 0 | Taller lleno |
-| nivel = "Intermedio" | Requiere el nivel inicial | 
-
+| nivel = "Intermedio" | Requiere el nivel inicial |
 
 **Ejercicio 3 · Cacería con DevTools**
 
@@ -580,6 +579,33 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | Escribo switch con break y default.                                   | X   |        |
 | Pongo un punto de interrupción y avanzo con F10.                      | X   |        |
 | Uso try / catch para que el programa no se detenga.                   | X   |        |
+
+</details>
+
+<details>
+<summary>▼<b>Clase 07 · 23/11/2026 · Repeticiones, vectores y matrices</b></summary>
+
+**¿Cuántas vueltas?**
+
+| #   | Ciclo                                   | Mi predicción | Comprobado |
+| --- | --------------------------------------- | ------------- | ---------- |
+| 1   | `for (let i = 0; i < 5; i++)`           |               |            |
+| 2   | `for (let i = 1; i <= 5; i++)`          |               |            |
+| 3   | `for (let i = 0; i <= 5; i++)`          |               |            |
+| 4   | `let n = 10; while (n > 0) { n -= 3; }` |               |            |
+| 5   | `let n = 0; do { n++; } while (n < 0);` |               |            |
+| 6   | `for (let i = 10; i > 0; i -= 2)`       |               |            |
+
+**Autoevaluación**
+
+| Indicador                                           | Sí  | Aún no |
+| --------------------------------------------------- | --- | ------ |
+| Elijo entre for, while y do while.                  |     |        |
+| Uso break y continue dentro de un ciclo.            |     |        |
+| Creo un vector y uso length, push, pop y join.      |     |        |
+| Recorro un vector con for y con for...of.           |     |        |
+| Leo una matriz con [fila][columna].                 |     |        |
+| Leo los datos de un vector de objetos con el punto. |     |        |
 
 </details>
 
