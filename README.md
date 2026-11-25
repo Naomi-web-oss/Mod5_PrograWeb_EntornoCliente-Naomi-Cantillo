@@ -476,20 +476,6 @@ Archivos: (UA1/S03/horario/js/horarios.js) · (luz-clara/js/ficha.js) · (casa-t
 
 </details>
 
-<!--
-CÓMO USAR ESTE BLOQUE (Clase 04)
-1. Abra el README.md de la carpeta principal del repositorio
-   (Mod5_PrograWeb_EntornoCliente-Nombre/README.md). Es el único README.
-2. Busque la sección «📝 Respuestas de las prácticas».
-3. Busque el aviso «📌 AQUÍ SE PEGAN LOS BLOQUES NUEVOS».
-   Si no lo tiene, ubíquese debajo del último </details> de esa sección,
-   antes de la línea --- que la cierra.
-4. Pegue ARRIBA de ese aviso todo lo que sigue a este comentario:
-   desde <details> hasta </details>. El aviso queda debajo, listo para la próxima clase.
-5. Deje una línea en blanco antes y después del bloque.
-6. Revise con Ctrl+Shift+V que las tablas se vean bien y guarde.
--->
-
 <details>
 <summary>▼<b>Clase 04 · 13/11/2026 · Variables, tipos y operadores</b></summary>
 
@@ -606,6 +592,74 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | Recorro un vector con for y con for...of.           |     |        |
 | Leo una matriz con [fila][columna].                 |     |        |
 | Leo los datos de un vector de objetos con el punto. |     |        |
+
+</details>
+
+<details>
+<summary>▼<b>Clase 08 · 24/11/2026 · Funciones</b></summary>
+
+**¿Qué muestra?** (prediga y luego compruebe en la consola)
+
+| #   | Código                                                 | Mi predicción | Comprobado |
+| --- | ------------------------------------------------------ | ------------- | ---------- |
+| 1   | `let a = 1; function f() { let a = 2; return a; } f()` |               |            |
+| 2   | `(después de lo anterior) a`                           |               |            |
+| 3   | `function g() { let b = 5; } g(); b`                   |               |            |
+| 4   | `const doble = (n) => n * 2; doble(4)`                 |               |            |
+| 5   | `[1, 2, 3].map((n) => n * 10).join(", ")`              |               |            |
+| 6   | `[5, 8, 2].filter((n) => n > 4).length`                |               |            |
+| 7   | `const s = (x, y) => x + y; s(2)`                      |               |            |
+
+**Autoevaluación**
+
+| Indicador                                      | Sí  | Aún no |
+| ---------------------------------------------- | --- | ------ |
+| Declaro una función y la llamo con argumentos. |     |        |
+| Uso return y entiendo qué pasa si falta.       |     |        |
+| Escribo una función flecha.                    |     |        |
+| Valido los parámetros antes de calcular.       |     |        |
+| Distingo una variable global de una local.     |     |        |
+| Uso forEach, map y filter con un callback.     |     |        |
+| Reconozco un closure y predigo su salida.      |     |        |
+
+</details>
+
+<details>
+<summary>▼<b>Clase 09 · 25/11/2026 · Repaso guiado, objetos y clases</b></summary>
+
+**Problema → ventaja** (complete con sus palabras)
+
+| Herramienta       | ¿Qué problema resuelve? | ¿Qué ventaja trae? |
+| ----------------- | ----------------------- | ------------------ |
+| Vector            |                         |                    |
+| Vector de objetos |                         |                    |
+| Función           |                         |                    |
+| forEach           |                         |                    |
+| map               |                         |                    |
+| filter            |                         |                    |
+| Clase             |                         |                    |
+
+**¿Qué muestra?** (prediga y luego compruebe en la consola)
+
+| #   | Código                                                                                       | Mi predicción | Comprobado |
+| --- | -------------------------------------------------------------------------------------------- | ------------- | ---------- |
+| 1   | `[3, 8, 1].map((n) => n * 2)`                                                                |               |            |
+| 2   | `[3, 8, 1].filter((n) => n > 2)`                                                             |               |            |
+| 3   | `const r = [3, 8, 1].forEach((n) => n * 2); r`                                               |               |            |
+| 4   | `[3, 8, 1].filter((n) => n > 5).map((n) => n + 1)`                                           |               |            |
+| 5   | `class A { constructor(n) { this.n = n; } doble() { return this.n * 2; } } new A(4).doble()` |               |            |
+| 6   | `const o = { n: 1 }; o.m`                                                                    |               |            |
+
+**Autoevaluación**
+
+| Indicador                                                                 | Sí  | Aún no |
+| ------------------------------------------------------------------------- | --- | ------ |
+| Explico por qué usar un vector de objetos en lugar de vectores paralelos. |     |        |
+| Elijo entre for, for...of y forEach y explico por qué.                    |     |        |
+| Reescribo un for + push con map y un for + if + push con filter.          |     |        |
+| Creo un objeto con propiedades y un método.                               |     |        |
+| Declaro una clase con constructor y la uso con new.                       |     |        |
+| Explico qué hace el modelo, la vista y el controlador.                    |     |        |
 
 </details>
 
